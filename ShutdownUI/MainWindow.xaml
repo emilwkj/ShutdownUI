@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShutdownUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="244.578" Width="228.392"
+        ResizeMode="NoResize">
+    <Grid Margin="0,0,4,0">
+        <Button x:Name="button_shutdown" Content="Shut Down!" HorizontalAlignment="Left" Margin="35,82,0,0" VerticalAlignment="Top" Width="147" Click="button_shutdown_Click"/>
+        <Label x:Name="label" Content="HH:MM:SS" HorizontalAlignment="Left" Margin="35,13,0,0" VerticalAlignment="Top" Width="147"/>
+        <Label x:Name="label1" Content="Time To Shutdown" HorizontalAlignment="Left" Margin="35,144,0,0" VerticalAlignment="Top" Width="147"/>
+        <TextBox x:Name="textBox_timer" IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="35,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147"/>
+        <Button x:Name="button_abort" IsEnabled="False" Content="Abort Shutdown" HorizontalAlignment="Left" VerticalAlignment="Top" Width="147" Margin="35,117,0,0" Click="button_abort_Click"/>
+        <TextBox x:Name="textBox_time" HorizontalAlignment="Left" Height="23" Margin="35,54,0,0" TextWrapping="Wrap" Text="00:00:00" VerticalAlignment="Top" Width="147"/>
+
     </Grid>
 </Window>
