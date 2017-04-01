@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ShutdownUI"
         mc:Ignorable="d"
-        Title="MainWindow" Height="244.578" Width="228.392"
+        Title="Shutdown UI By Emil Wismann" Height="244.578" Width="228.392"
         ResizeMode="NoResize">
     <Grid Margin="0,0,4,0">
         <Button x:Name="button_shutdown" Content="Shut Down!" HorizontalAlignment="Left" Margin="35,82,0,0" VerticalAlignment="Top" Width="147" Click="button_shutdown_Click"/>
