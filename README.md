@@ -9,7 +9,7 @@
 <p>A software to time your shutdowns</p>
 <h3>Download:</h3>
 <p>Source Code: Dowload the git repository</p>
-<p>Latest release with windows installer: <a href="nessy.dk/shutdown/publish.htm"><strong>Download</strong></a></p>
+<p>Latest release with windows installer: <a href="http://nessy.dk/shutdown/publish.htm"><strong>Download</strong></a></p>
 <h3>Features</h3>
 <ul>
 <li>
